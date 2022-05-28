@@ -38,7 +38,7 @@ public class JpaMain {
 
         String id = "yaloo";
         Member member = new Member();
-        member.setId(id);s
+        member.setId(id);
         member.setUsername("얄루");
         member.setAge(2);
 
