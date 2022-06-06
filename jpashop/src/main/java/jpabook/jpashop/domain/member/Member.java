@@ -15,7 +15,7 @@ import java.util.Date;
         columnNames = {"NAME", "AGE"})})
 public class Member {
 
-    @Id
+    @Id @GeneratedValue
     @Column(name = "ID")
     private String id;
 
